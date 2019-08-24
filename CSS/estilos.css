@@ -1,0 +1,88 @@
+body{
+    background-image: url('../img/patron.png');
+    
+}
+
+
+.card-header{
+    background-color: #2e2e2e !important;
+    color: white !important;
+    
+}
+
+.card{
+    position: relative;
+    margin: 1rem;
+    border: #2e2e2e;
+}
+
+.card-body{
+    background-color: #6fe8ec;
+    
+}
+
+.form-control{
+    background-color:white;
+}
+
+.navbar{
+    background-color: #2e2e2e !important;
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: #179bd8 !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+} 
+
+.navbar li a:link, .navbar li a:visited{
+    color: white !important;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: #179bd8 !important;
+} 
+
+#Actualizar, #Cancelar{
+    float: right;
+    margin: 1%;
+    border-color: #2e2e2e;
+    color: black;
+    font-weight: bold;
+
+}
+.btn-primary{
+    float: right;
+    margin: 1%;
+}
+.btn-outline-primary, .btn-primary{
+    background-color: #17a8b3 !important;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+.btn-outline-primary:hover, .btn-primary:hover {
+    background-color: #2e2e2e !important;
+}
+
+#lista li {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 0 10px 0;
+    padding: 4px 8px;
+    line-height: 1.6;
+    list-style-type: decimal;
+    background-color: rgb(88, 235, 124); 
+
+  }
+  #lista li:focus{
+    margin-top: 50px;
+    outline: 0;
+}
+  #lista li:hover{
+      top:200px
+  }
+  
